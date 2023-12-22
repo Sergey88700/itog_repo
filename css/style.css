@@ -1,0 +1,111 @@
+body{
+    background-color: #5af4ea
+}
+    .pic1{
+    border: solid 0.1px;
+    margin-right: 4%;
+    height: 30%;
+    float: left;
+    }
+    
+    
+    .pic2{
+    border: solid 0.1px;
+    float: left;
+    height: 30%;
+    margin-right: 6px;
+    }
+
+    body{
+        background-color: #8e8e8e
+
+    }
+    .pic3{
+    border: solid 0.1px;
+    float: right;
+    height: 30%;
+    float: left;
+    margin-right: 10px;
+    top: 100px;
+    }
+    
+    h1{
+    color:black;	
+    }
+    
+    
+    /*-------------------------------Текст, заголовки и т.д.-------------------------*/
+    .architecture{
+        text-align:center; 
+    }
+    h2{
+    justify-content: center;
+    text-align:center;
+    color: #0084ff;
+    }
+    
+    h3{
+    margin-left: 3%;
+    }
+    
+    p1{
+    font-style:italic;
+    }
+    
+    .div1{
+        display:block;
+        position: absolute;
+        box-shadow: 0 0 15px 3px;
+        color:black;
+        text-align:justify;
+        background: rgb(255,255,255, 0.6);
+        opacity:1;
+        font-family:Lucida Sans Unicode;
+        font-size:15px;
+        position: relative;
+        padding: 10;
+        margin-top: 5.3%;
+        left: 17.25%;
+        height:auto;
+        width:64%;
+        min-width: 600px;
+        } 
+
+        .div2{
+            border: 1px solid black;
+            display:block;
+            background: rgb(0,0,0, 0.78);
+            opacity:1;
+            text-align:justify;
+            font-family:Lucida Sans Unicode;
+            font-size:14px;
+            position: absolute;
+            padding: 5;
+            top: 220;
+            left: 10;
+            height:auto;
+            width:15.5%;
+            min-width: 150px;
+            color: white;
+            }
+
+            .div2 ul{
+                list-style:none;
+                padding: 0;
+                margin-left: 3.5%;
+                }
+                
+                .div2 li{
+                padding: 0;
+                }
+                
+                
+                
+    
+    /*------------------------------Цвет выделения и скролл-бар--------------------*/
+    ::-webkit-scrollbar {width: 7px; background-color: black;}
+    ::-webkit-scrollbar-thumb {background-color: darkblue;}
+    
+    ::selection {
+    background: gray;
+    }
